@@ -4,11 +4,12 @@ using namespace std;
 
 int main(){
     int data;
-    cout<<"Input 4 digit number : ";
-    cin>>data;
+    cout<<"Input 4 digit number : ";  
+    cin>>data;   //meminta inputan dari user 
 
-    data = ((data + 8)/3)%5*5;
+    #melakukan operasi pada angka yang diinput user
+    data = ((data + 8)/3)%5*5;  
 
-    cout<<"Result : "<<data;
+    cout<<"Result : "<<data;   //menampilkan hasil dari operasi yang telah dilakukan
     
 }
